@@ -1,20 +1,20 @@
 
-# igv.js in React
+# 该项目部分内容克隆自[igv.js-react](https://github.com/jrobinso/igv.js-react)
 
-This is a minimal example of integrating the [igv.js](https://github.com/igvteam/igv.js) genome browser with the 
-popular [React](https://reactjs.org/) framework for front-end web development.  The project was bootstrapped 
-with [Create React App](https://github.com/facebookincubator/create-react-app).  
 
-The example was originally created by @eweiz, and can be found here:  https://github.com/eweitz/igv.js-react.
-
-# Install
+# Usage(frond) 
 ```
-git clone https://github.com/jrobinso/igv.js-react
-cd igv.js-react
+git clone user-tq/igv.js-react-fastapi-mongodb
+cd igv.js-react-fastapi-mongodb
+cd frond
 npm install
 npm start
+
 ```
 
-# Output
-After executing the steps above, you should see the following:
-![igv.js in React screenshot](https://raw.githubusercontent.com/eweitz/igv.js-react/master/igv-js_react_example.png)
+# Usage(badckend)
+```
+cd  badckend
+python main.py
+
+```
